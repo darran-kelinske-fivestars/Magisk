@@ -35,4 +35,6 @@ constexpr char magiskrc[] =
 "    seclabel u:r:" SEPOL_PROC_DOMAIN ":s0\n"
 "    oneshot\n"
 "\n"
+"#777\n"
+"\n"
 ;
