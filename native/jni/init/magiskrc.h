@@ -34,7 +34,15 @@ constexpr char magiskrc[] =
 "    user root\n"
 "    seclabel u:r:" SEPOL_PROC_DOMAIN ":s0\n"
 "    oneshot\n"
+"\n\n"
+"#Check if chargermode and start autoreboot service.\n"
+"on property:ro.bootmode=charger\n"
+"    touch /data/wegothere\n"
+"    start autoreboot\n"
 "\n"
-"#777\n"
+"service autoreboot /system/bin/reboot\n"
+"    user root\n"
+"    oneshot"
+
 "\n"
 ;

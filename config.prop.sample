@@ -1,10 +1,10 @@
 # The version name and version code of Magisk
-version=7
-versionCode=7
+version=18
+versionCode=18
 
 # The version name and version code of Magisk Manager
-appVersion=7
-appVersionCode=7
+appVersion=18
+appVersionCode=18
 
 outdir=out
 
